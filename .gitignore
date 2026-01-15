@@ -24,3 +24,9 @@ models/
 '@ | Out-File -Encoding utf8 .gitignore
 /train/
 /val/
+
+# allow experiment results
+!outputs/
+!outputs/**/
+!outputs/**/*.csv
+!outputs/**/*.png
