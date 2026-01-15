@@ -1,0 +1,24 @@
+@'
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Data & outputs
+data/raw/
+data/processed/
+outputs/
+models/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+'@ | Out-File -Encoding utf8 .gitignore
