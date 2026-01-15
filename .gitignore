@@ -22,3 +22,5 @@ models/
 # Logs
 *.log
 '@ | Out-File -Encoding utf8 .gitignore
+/train/
+/val/
