@@ -30,3 +30,11 @@ models/
 !outputs/**/
 !outputs/**/*.csv
 !outputs/**/*.png
+# ignore all outputs by default
+outputs/
+
+# but keep report figures for the report
+!outputs/report_figs/
+!outputs/report_figs/**
+!outputs/report_figs/*.png
+!outputs/report_figs/*.csv
